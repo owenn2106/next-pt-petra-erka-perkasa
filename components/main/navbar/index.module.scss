@@ -1,15 +1,29 @@
 .nav__background {
-    background-color: #ECE8E6;
-    min-height: 10vh;
+  background-color: #ece8e6;
+  min-height: 10vh;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .nav__background {
+    justify-content: center;
+  }
 }
 
 .nav__links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    list-style: none;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__links {
+    a {
+      font-size: 0.8rem;
+    }
+  }
 }

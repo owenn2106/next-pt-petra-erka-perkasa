@@ -3,7 +3,7 @@ import style from "./index.module.scss";
 
 const Header = () => {
   return (
-    <div className={style.header__bg}>
+    <div className={style.header__bg} id="home">
       <div className={`container ${style.header__wrapper}`}>
         <div className={style.header__text}>
           <h1>Top-Quality</h1>

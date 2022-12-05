@@ -3,9 +3,9 @@ import style from "./index.module.scss";
 
 const About = () => {
   return (
-    <div className={`${style.about__wrapper} container`}>
+    <div className={`${style.about__wrapper} container`} id="about">
       <div className={style.logo__wrapper}>
-        <Image src="/images/logo.png" height={148} width={776} alt="logo" />
+        <Image src="/images/logo.png" fill alt="logo" className={style.image} />
       </div>
       <div className={style.description__wrapper}>
         <p>

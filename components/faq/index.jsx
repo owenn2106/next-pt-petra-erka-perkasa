@@ -2,7 +2,7 @@ import style from "./index.module.scss";
 
 const FAQ = () => {
   return (
-    <div className={style.faq__wrapper}>
+    <div className={style.faq__wrapper} id="faq">
       <h2 className={style.faq__title}>Frequently Asked Questions</h2>
       <div className="container">
         <div className={style.faq__desc}>

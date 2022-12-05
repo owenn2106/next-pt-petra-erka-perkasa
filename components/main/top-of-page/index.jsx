@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import style from "./index.module.scss";
 
@@ -6,7 +6,12 @@ const TopOfPage = () => {
   return (
     <div className={`${style.topofpage__wrapper} container`}>
       <div className={style.img__wrapper}>
-        <Image src="/images/logo.png" width={378} height={72} alt="logo" />
+        <Image
+          src="/images/logo.png"
+          layout="fill"
+          alt="logo"
+          className={style.image}
+        />
       </div>
       <div className={style.contact__wrapper}>
         <div className={style.contact__details}>

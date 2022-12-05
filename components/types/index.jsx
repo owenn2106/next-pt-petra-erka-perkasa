@@ -44,7 +44,7 @@ const Types = () => {
     },
   ];
   return (
-    <div className={`${style.types__wrapper} container`}>
+    <div className={`${style.types__wrapper} container`} id="products">
       <h2 className={style.types__title}>Types of corrugated boxes</h2>
       <div className={style.type__content}>
         {data.map((datum, idx) => (

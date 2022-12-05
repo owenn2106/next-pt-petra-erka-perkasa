@@ -1,78 +1,84 @@
 .card__wrapper {
-    border: 15px solid #E5E0DD;
-    border-radius: 10px;
+  border: 15px solid #e5e0dd;
+  border-radius: 10px;
 
-    width: 100%;
-    height: 280px;
-    margin: 0 1.5em;
-    padding: 1em;
+  max-width: 250px;
+  height: 280px;
+  margin: 0 1.5em;
+  padding: 1em;
 
-    position: relative;
+  position: relative;
+}
+
+@media screen and (max-width: 1155px) {
+  .card__wrapper {
+    margin-top: 3em;
+  }
 }
 
 .image__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-        transform: translateY(-80%);
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    transform: translateY(-80%);
+  }
 }
 
 .text__wrapper {
-    transform: translateY(-20%);
-    h3 {
-        color: #572D00;
-    }
+  transform: translateY(-20%);
+  h3 {
+    color: #572d00;
+  }
 
-    p {
-        font-size: 0.8rem;
-        padding: 1em 0;
-        line-height: 150%;
-    }
+  p {
+    font-size: 0.8rem;
+    padding: 1em 0;
+    line-height: 150%;
+  }
 }
 
 .details__btn {
-    font-size: 0.8rem;
-    color: #AA9488;
-    cursor: pointer;
+  font-size: 0.8rem;
+  color: #aa9488;
+  cursor: pointer;
 
-    position: absolute;
-    bottom: 8%;
-    left: 8%;
+  position: absolute;
+  bottom: 8%;
+  left: 8%;
 }
 
 .modal__img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    img {
-        max-height: 190px;
-    }
+  margin-top: 2em;
+
+  img {
+    max-height: 190px;
+  }
 }
 
 .modal__title {
-    margin-top: 1em;
-    text-align: center;
-    color: #572D00;
-    font-size: 1.5rem;
+  margin-top: 1em;
+  text-align: center;
+  color: #572d00;
+  font-size: 1.5rem;
 }
 
 .modal__description {
-    margin-top: 1.5em;
+  margin-top: 1.5em;
 
-    .desc > p {
-        line-height: 150%;
-    }
+  .desc > p {
+    line-height: 150%;
+  }
 
-    .usage {
-        margin-top: 3em;
-    }
+  .usage {
+    margin-top: 3em;
+  }
 
-    .flutes {
-        margin-top: 0.8em;
-    }
+  .flutes {
+    margin-top: 0.8em;
+  }
 }

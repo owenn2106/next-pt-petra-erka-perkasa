@@ -7,6 +7,12 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .process__wrapper {
+    display: none;
+  }
+}
+
 .procceses {
   display: flex;
   align-items: center;
@@ -20,5 +26,6 @@
 
   .text {
     padding-top: 2em;
+    text-align: center;
   }
 }

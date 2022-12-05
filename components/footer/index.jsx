@@ -13,7 +13,7 @@ const Footer = () => {
             alt="footer-bg"
           />
         </div>
-        <div className={style.footer__content}>
+        <div className={style.footer__content} id="contact">
           <div className={style.footer__logo}>
             <Image
               src="/images/logo.png"

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Header from "../components/header";
 import Qualities from "../components/qualities";
 import About from "../components/about";
@@ -12,6 +13,10 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.png" />
+        <title>PT Petra Erka Perkasa</title>
+      </Head>
       <Header />
       <Qualities />
       <About />
