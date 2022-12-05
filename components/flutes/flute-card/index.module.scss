@@ -1,0 +1,22 @@
+.card__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2em 2em 0;
+}
+
+.title, .desc {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.2rem;
+    padding-bottom: 1em;
+}
+
+.desc {
+    font-size: 0.9rem;
+    line-height: 150%;
+}

@@ -1,0 +1,26 @@
+.flutes__wrapper {
+    min-height: 50vh;
+    padding-bottom: 5em;
+}
+
+.flutes__title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.flutes__short_desc {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.flutes__content {
+    margin-top: 1em;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    > * {
+        flex: 1 1 10em;
+    }
+}

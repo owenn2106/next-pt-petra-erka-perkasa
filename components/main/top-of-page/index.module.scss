@@ -1,0 +1,49 @@
+.topofpage__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 15vh;
+}
+
+.contact__wrapper {
+  display: flex;
+  align-items: center;
+
+  > * {
+    margin-left: 1.5em;
+  }
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact__number {
+  font-size: 1.5rem;
+}
+
+.contact__email {
+  color: #6c6c6c;
+  padding-top: 0.2em;
+}
+
+.contact__btn {
+  background-color: #1592d6;
+  font-size: 0.8rem;
+
+  padding: 0.5em 1em;
+  border-radius: 30px;
+
+  a {
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    span {
+      padding-left: 1em;
+    }
+  }
+}

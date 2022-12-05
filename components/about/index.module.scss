@@ -1,0 +1,55 @@
+.about__wrapper {
+    min-height: 120vh;
+    margin-top: 3em;
+}
+
+.logo__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.description__wrapper {
+    padding-top: 4em;
+    p {
+        font-size: 1.2rem;
+        text-align: center;
+        font-style: italic;
+        line-height: 150%;
+    }
+}
+
+.vision__mission {
+    display: flex;
+    align-items: center;
+    padding: 5em 0 10em;
+}
+
+.image__wrapper {
+    background-color: #E5E0DD;
+    width: 568px;
+    height: 491px;
+
+    img {
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+}
+
+
+.text__wrapper {
+    padding-left: 5em;
+    padding-top: 3em;
+
+    h3 {
+        font-size: 2rem;
+        padding-bottom: .5em;
+    }
+
+    p {
+        line-height: 150%;
+    }
+
+    .mission {
+        margin-top: 1.5em;
+    }
+}

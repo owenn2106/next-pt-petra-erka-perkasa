@@ -1,0 +1,36 @@
+.qualities__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transform: translateY(-30%);
+}
+
+.qualities__card {
+    margin: 0 1.5em;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #FBFBFB;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+
+    flex-basis: 100%;
+}
+
+.card__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title__text {
+        font-size: 1.2rem;
+        color: #572D00;
+    }
+}
+
+.card__content {
+    padding-top: 1em;
+
+    p {
+        line-height: 1.8rem;
+    }
+}
