@@ -47,8 +47,9 @@ const Types = () => {
     <div className={`${style.types__wrapper} container`}>
       <h2 className={style.types__title}>Types of corrugated boxes</h2>
       <div className={style.type__content}>
-        {data.map((datum) => (
+        {data.map((datum, idx) => (
           <TypeCard
+            key={idx}
             img={datum.img}
             title={datum.title}
             preview={datum.preview}

@@ -6,7 +6,7 @@ const TopOfPage = () => {
   return (
     <div className={`${style.topofpage__wrapper} container`}>
       <div className={style.img__wrapper}>
-        <Image src="/images/logo.png" width={378} height={72} />
+        <Image src="/images/logo.png" width={378} height={72} alt="logo" />
       </div>
       <div className={style.contact__wrapper}>
         <div className={style.contact__details}>
@@ -19,7 +19,12 @@ const TopOfPage = () => {
         </div>
         <div className={style.contact__btn}>
           <a href="/">
-            <Image src="/images/icons/phone-blue.png" width={25} height={25} />
+            <Image
+              src="/images/icons/phone-blue.png"
+              width={25}
+              height={25}
+              alt="phone-icon"
+            />
             <span>Kenjie</span>
           </a>
         </div>

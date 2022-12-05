@@ -10,6 +10,7 @@ const Footer = () => {
             src="/images/footer-bg.png"
             layout="fill"
             className={style.image}
+            alt="footer-bg"
           />
         </div>
         <div className={style.footer__content}>
@@ -18,6 +19,7 @@ const Footer = () => {
               src="/images/logo.png"
               layout="fill"
               className={style.image}
+              alt="logo"
             />
           </div>
           <div className={style.footer__text}>
@@ -68,6 +70,7 @@ const Footer = () => {
                     src="/images/gmaps-barcode.png"
                     width={150}
                     height={150}
+                    alt="gmaps-barcode"
                   />
                 </div>
                 <div className={style.barcode__text}>

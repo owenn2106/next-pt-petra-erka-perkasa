@@ -9,7 +9,7 @@ const TypeCard = ({ img, title, preview, desc, usage, flutes }) => {
   return (
     <div className={style.card__wrapper}>
       <div className={style.image__wrapper}>
-        <Image src={img} height={80} width={150} />
+        <Image src={img} height={80} width={150} alt="corrugated-types" />
       </div>
       <div className={style.text__wrapper}>
         <h3>{title}</h3>

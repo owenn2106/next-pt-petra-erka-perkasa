@@ -22,6 +22,7 @@ const Header = () => {
             src="/images/header-img.png"
             layout="fill"
             className={style.image}
+            alt="corrugated-box"
           />
         </div>
       </div>

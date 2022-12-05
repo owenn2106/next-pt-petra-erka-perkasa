@@ -5,7 +5,7 @@ const FluteCard = ({ img, title, desc }) => {
   return (
     <div className={style.card__wrapper}>
       <div className={style.img__wrapper}>
-        <Image src={img} width={305} height={146} />
+        <Image src={img} width={305} height={146} alt="flute-img" />
       </div>
       <div className={style.text__wrapper}>
         <div className={style.title}>

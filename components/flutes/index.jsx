@@ -44,8 +44,9 @@ const Flutes = () => {
         </p>
       </div>
       <div className={style.flutes__content}>
-        {data.map((datum) => (
+        {data.map((datum, idx) => (
           <FluteCard
+            key={idx}
             img={datum.img}
             title={datum.title}
             desc={datum.description}
