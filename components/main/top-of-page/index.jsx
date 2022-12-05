@@ -23,7 +23,11 @@ const TopOfPage = () => {
           </span>
         </div>
         <div className={style.contact__btn}>
-          <a href="/">
+          <a
+            href="https://wa.me/6281299178296"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/images/icons/phone-blue.png"
               width={25}

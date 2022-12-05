@@ -13,7 +13,12 @@ const Header = () => {
             into the total package with full customization, instant quoting, and
             fast turnarounds.
           </p>
-          <a href="/" className={style.header__cta}>
+          <a
+            href="https://wa.me/6281299178296"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={style.header__cta}
+          >
             Consult Us
           </a>
         </div>

@@ -11,7 +11,9 @@ const FAQ = () => {
             creating a custom box. Every order is little different though, so
             don&apos;t hesitate to{" "}
             <a
-              href="/"
+              href="https://wa.me/6281299178296"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ textDecoration: "underline", color: "#aa9488" }}
             >
               reach out
@@ -45,11 +47,11 @@ const FAQ = () => {
                 design team will help in reviewing your custom box design for
                 any technical concerns (artwork resolution, blurriness, splits,
                 thin lines, and bleeds) and if found, will note them for your
-                attention in the proof. If you're unsure of how to fix any
+                attention in the proof. If you&apos;re unsure of how to fix any
                 printing concerns that are noted, our team is happy to help you
-                through the process. It's important to keep in mind that our
-                team does not check for spelling or grammar errors, nor do they
-                provide any subjective feedback on design content.
+                through the process. It&apos;s important to keep in mind that
+                our team does not check for spelling or grammar errors, nor do
+                they provide any subjective feedback on design content.
               </p>
             </div>
           </div>
@@ -60,7 +62,7 @@ const FAQ = () => {
                 printing?
               </h3>
               <p>
-                Usually the flow of customer's order is as such: request of
+                Usually the flow of customer&apos;s order is as such: request of
                 quotation, deal on quotation, artwork design submission, artwork
                 design verified and accepted by customer, after which sample is
                 then made and sent to the customer. If sample is verified and
@@ -89,7 +91,13 @@ const FAQ = () => {
         </div>
         <div className={style.faq__cta}>
           <p>Can&apos;t find the answer you&apos;re looking for?</p>
-          <a href="/">Consult us</a>
+          <a
+            href="https://wa.me/6281299178296"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consult us
+          </a>
         </div>
       </div>
     </div>
