@@ -1,6 +1,9 @@
 import styledComponents from "styled-components";
 
 const StyledBurger = styledComponents.button`
+  position: fixed;
+  top: 38px;
+  right: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -11,7 +14,6 @@ const StyledBurger = styledComponents.button`
   cursor: pointer;
   padding: 0;
   z-index: 10;
-  transform: ${({ open }) => (open ? "translate(5px)" : "translate(0)")};
   &:focus {
     outline: none;
   }
@@ -19,8 +21,8 @@ const StyledBurger = styledComponents.button`
 
   div {
     width: 2rem;
-    height: 0.2rem;
-    background: ${({ open }) => (open ? "black" : "black")};
+    height: 0.1rem;
+    background: black;
     transition: all 300ms linear;
     position: relative;
     transform-origin: 1px;

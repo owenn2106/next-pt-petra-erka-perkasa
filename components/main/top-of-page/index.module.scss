@@ -32,11 +32,17 @@
 
 @media screen and (max-width: 600px) {
   .img__wrapper {
-    margin: 0 auto;
+    width: 300px;
   }
 
   .contact__wrapper {
     display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .img__wrapper {
+    width: 250px;
   }
 }
 
