@@ -4,7 +4,7 @@ import TypeCard from "./type-card";
 const Types = () => {
   const data = [
     {
-      img: "/images/types/corrugated-1.png",
+      img: "/images/types/corrugated-1.webp",
       title: "Single Face Corrugated",
       preview: "Made of a single flute and 1 or 2 sheets of linear board.",
       description:
@@ -13,7 +13,7 @@ const Types = () => {
       flutes: ["A", "B", "C", "F"],
     },
     {
-      img: "/images/types/corrugated-2.png",
+      img: "/images/types/corrugated-2.webp",
       title: "Single Wall Corrugated",
       preview:
         "Made of a layer of corrugated medium glued between 2 sheets of liner board.",
@@ -23,7 +23,7 @@ const Types = () => {
       flutes: ["A", "B", "C", "F"],
     },
     {
-      img: "/images/types/corrugated-3.png",
+      img: "/images/types/corrugated-3.webp",
       title: "Double Wall Corrugated",
       preview:
         "Made of a 2 layer of corrugated medium glued between 3 layers of liner board.",
@@ -33,7 +33,7 @@ const Types = () => {
       flutes: ["BC", "EB"],
     },
     {
-      img: "/images/types/corrugated-4.png",
+      img: "/images/types/corrugated-4.webp",
       title: "Triple Wall Corrugated",
       preview:
         "Made of 3 layers of corrugated medium and 4 layers of liner board.",

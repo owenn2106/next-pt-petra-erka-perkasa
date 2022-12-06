@@ -5,7 +5,12 @@ const About = () => {
   return (
     <div className={`${style.about__wrapper} container`} id="about">
       <div className={style.logo__wrapper}>
-        <Image src="/images/logo.png" fill alt="logo" className={style.image} />
+        <Image
+          src="/images/logo.webp"
+          fill
+          alt="logo"
+          className={style.image}
+        />
       </div>
       <div className={style.description__wrapper}>
         <p>
@@ -23,7 +28,7 @@ const About = () => {
       <div className={style.vision__mission}>
         <div className={style.image__wrapper}>
           <Image
-            src="/images/petra/petra-1.png"
+            src="/images/petra/petra-1.webp"
             width={568}
             height={491}
             alt="petra-1"

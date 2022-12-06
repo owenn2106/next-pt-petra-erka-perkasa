@@ -7,7 +7,7 @@ const TopOfPage = () => {
     <div className={`${style.topofpage__wrapper} container`}>
       <div className={style.img__wrapper}>
         <Image
-          src="/images/logo.png"
+          src="/images/logo.webp"
           layout="fill"
           alt="logo"
           className={style.image}
@@ -29,7 +29,7 @@ const TopOfPage = () => {
             rel="noopener noreferrer"
           >
             <Image
-              src="/images/icons/phone-blue.png"
+              src="/images/icons/phone-blue.webp"
               width={25}
               height={25}
               alt="phone-icon"

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={style.footer__wrapper}>
         <div className={style.footer__bg}>
           <Image
-            src="/images/footer-bg.png"
+            src="/images/footer-bg.webp"
             layout="fill"
             className={style.image}
             alt="footer-bg"
@@ -16,7 +16,7 @@ const Footer = () => {
         <div className={style.footer__content} id="contact">
           <div className={style.footer__logo}>
             <Image
-              src="/images/logo.png"
+              src="/images/logo.webp"
               layout="fill"
               className={style.image}
               alt="logo"
@@ -26,15 +26,15 @@ const Footer = () => {
             <h2>Chat with us or have a visit</h2>
             <div className={style.footer__contact}>
               <div className={style.phone}>
-                <img src="/images/icons/phone.png" alt="phone-icon" />
+                <img src="/images/icons/phone.webp" alt="phone-icon" />
                 <p>+62-21-5937-6688 | +62-21-5937-8283</p>
               </div>
               <div className={style.email}>
-                <img src="/images/icons/email.png" alt="email-icon" />
+                <img src="/images/icons/email.webp" alt="email-icon" />
                 <p>marketing@petraerkaperkasa.com</p>
               </div>
               <div className={style.address}>
-                <img src="/images/icons/address.png" alt="address-icon" />
+                <img src="/images/icons/address.webp" alt="address-icon" />
                 <p>
                   Jl. Rawa Kopi Raya (H. Jamin Sahip) No. 9 RT 002 RW 001 Desa
                   Kalibaru Kec. Pakuhaji, Tanggerang Kab Tangerang - Banten
@@ -42,7 +42,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className={style.time}>
-                <img src="/images/icons/time.png" alt="address-icon" />
+                <img src="/images/icons/time.webp" alt="address-icon" />
                 <div className={style.time__wrapper}>
                   <div className={style.day}>
                     <p>Monday - Friday</p>
@@ -67,7 +67,7 @@ const Footer = () => {
               <div className={style.gmaps__barcode}>
                 <div className={style.barcode}>
                   <Image
-                    src="/images/gmaps-barcode.png"
+                    src="/images/gmaps-barcode.webp"
                     width={150}
                     height={150}
                     alt="gmaps-barcode"

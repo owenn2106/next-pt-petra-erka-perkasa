@@ -17,42 +17,42 @@ const Designs = () => {
         <div className={style.image__grid}>
           <figure className={`${style.image} ${style.image__1}`}>
             <img
-              src="/images/boxes/1.png"
+              src="/images/boxes/1.webp"
               className="gallery__img"
               alt="Image 1"
             />
           </figure>
           <figure className={`${style.image} ${style.image__2}`}>
             <img
-              src="/images/boxes/2.png"
+              src="/images/boxes/2.webp"
               className="gallery__img"
               alt="Image 2"
             />
           </figure>
           <figure className={`${style.image} ${style.image__3}`}>
             <img
-              src="/images/boxes/3.png"
+              src="/images/boxes/3.webp"
               className="gallery__img"
               alt="Image 3"
             />
           </figure>
           <figure className={`${style.image} ${style.image__4}`}>
             <img
-              src="/images/boxes/4.png"
+              src="/images/boxes/4.webp"
               className="gallery__img"
               alt="Image 4"
             />
           </figure>
           <figure className={`${style.image} ${style.image__5}`}>
             <img
-              src="/images/boxes/5.png"
+              src="/images/boxes/5.webp"
               className="gallery__img"
               alt="Image 5"
             />
           </figure>
           <figure className={`${style.image} ${style.image__6}`}>
             <img
-              src="/images/boxes/6.png"
+              src="/images/boxes/6.webp"
               className="gallery__img"
               alt="Image 6"
             />

@@ -12,7 +12,7 @@ const Qualities = () => {
           </div>
           <div className={style.title__img}>
             <Image
-              src="/images/icons/infinity.png"
+              src="/images/icons/infinity.webp"
               height={50}
               width={50}
               alt="infinity"
@@ -34,7 +34,7 @@ const Qualities = () => {
           </div>
           <div className={style.title__img}>
             <Image
-              src="/images/icons/illustrator.png"
+              src="/images/icons/illustrator.webp"
               height={50}
               width={50}
               alt="illustrator"
@@ -56,7 +56,7 @@ const Qualities = () => {
           </div>
           <div className={style.title__img}>
             <Image
-              src="/images/icons/quick.png"
+              src="/images/icons/quick.webp"
               height={50}
               width={50}
               alt="quick"

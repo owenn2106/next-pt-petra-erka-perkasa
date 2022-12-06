@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="/favicon.webp" />
         <title>PT Petra Erka Perkasa</title>
       </Head>
       <Header />

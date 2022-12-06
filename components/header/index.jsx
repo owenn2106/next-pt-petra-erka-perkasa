@@ -24,7 +24,7 @@ const Header = () => {
         </div>
         <div className={style.header__img}>
           <Image
-            src="/images/header-img.png"
+            src="/images/header-img.webp"
             layout="fill"
             className={style.image}
             alt="corrugated-box"

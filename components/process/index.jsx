@@ -7,7 +7,7 @@ const Process = () => {
       <div className={`container ${style.procceses}`}>
         <div className={style.process}>
           <Image
-            src="/images/icons/email-success.png"
+            src="/images/icons/email-success.webp"
             width={70}
             height={70}
             alt="email-success"
@@ -18,7 +18,7 @@ const Process = () => {
         </div>
         <div className={style.arrow}>
           <Image
-            src="/images/icons/chevron-right.png"
+            src="/images/icons/chevron-right.webp"
             width={50}
             height={50}
             alt="chevron-right"
@@ -26,7 +26,7 @@ const Process = () => {
         </div>
         <div className={style.process}>
           <Image
-            src="/images/icons/deal.png"
+            src="/images/icons/deal.webp"
             width={70}
             height={70}
             alt="handshake-deal"
@@ -37,7 +37,7 @@ const Process = () => {
         </div>
         <div className={style.arrow}>
           <Image
-            src="/images/icons/chevron-right.png"
+            src="/images/icons/chevron-right.webp"
             width={50}
             height={50}
             alt="chevron-right"
@@ -45,7 +45,7 @@ const Process = () => {
         </div>
         <div className={style.process}>
           <Image
-            src="/images/icons/process.png"
+            src="/images/icons/process.webp"
             width={70}
             height={70}
             alt="process"
@@ -56,7 +56,7 @@ const Process = () => {
         </div>
         <div className={style.arrow}>
           <Image
-            src="/images/icons/chevron-right.png"
+            src="/images/icons/chevron-right.webp"
             width={50}
             height={50}
             alt="chevron-right"
@@ -64,7 +64,7 @@ const Process = () => {
         </div>
         <div className={style.process}>
           <Image
-            src="/images/icons/shipped.png"
+            src="/images/icons/shipped.webp"
             width={100}
             height={70}
             alt="shipped-out"
