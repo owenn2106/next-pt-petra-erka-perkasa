@@ -27,11 +27,29 @@
   padding-top: 1em;
 }
 
+@media screen and (max-width: 600px) {
+  .modal__close {
+    font-size: 0.9rem;
+  }
+}
+
 .modal__content {
-  width: 40vw;
+  width: 60vw;
   height: 90vh;
   background-color: #f1eeec;
   overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .modal__content {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .modal__content {
+    width: 90vw;
+  }
 }
 
 .modal__body {
@@ -42,6 +60,18 @@
   align-items: center;
 
   padding: 0 4em;
+}
+
+@media screen and (max-width: 600px) {
+  .modal__body {
+    padding: 0 2em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modal__body {
+    padding: 0 1em;
+  }
 }
 
 @media screen and (max-width: 768px) {
