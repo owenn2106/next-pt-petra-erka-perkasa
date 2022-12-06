@@ -36,9 +36,16 @@ const Footer = () => {
               <div className={style.address}>
                 <img src="/images/icons/address.webp" alt="address-icon" />
                 <p>
-                  Jl. Rawa Kopi Raya (H. Jamin Sahip) No. 9 RT 002 RW 001 Desa
-                  Kalibaru Kec. Pakuhaji, Tanggerang Kab Tangerang - Banten
-                  15570
+                  <a
+                    href="https://goo.gl/maps/SE5Akfy1NCfd4aK47"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "underline" }}
+                  >
+                    Jl. Rawa Kopi Raya (H. Jamin Sahip) No. 9 RT 002 RW 001 Desa
+                    Kalibaru Kec. Pakuhaji, Tanggerang Kab Tangerang - Banten
+                    15570 (Click here to open on Google Maps!)
+                  </a>
                 </p>
               </div>
               <div className={style.time}>
@@ -84,7 +91,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.copyright}>
-        <p>Copyright by PT Petra Erka Perkasa 2022</p>
+        <p>&#169; Copyright 2022 by PT Petra Erka Perkasa</p>
       </div>
     </>
   );
